@@ -11,7 +11,6 @@ package "httpd" do
   action :install
 end
 
-
 # Disable the default virtual host
 apache_vhost "welcome" do
   action :remove
